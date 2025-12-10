@@ -1,7 +1,5 @@
 name: Build Software
-
-on:
-  workflow_dispatch:
+on: [push]
 
 jobs:
   build:
