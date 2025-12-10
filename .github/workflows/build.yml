@@ -2,11 +2,13 @@ name: Build Software
 
 on:
   workflow_dispatch:
-    inputs:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     
     steps:
     - name: Checkout
