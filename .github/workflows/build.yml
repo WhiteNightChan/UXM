@@ -2,6 +2,7 @@ name: Build Software
 
 on:
   workflow_dispatch:
+    inputs:
 
 jobs:
   build:
